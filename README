@@ -1,4 +1,5 @@
 LWJGL-based Pong game.
 
 Launch with java option pointing to your LWJGL natives folder
-for example: -Djava.library.path="/lwjgl-2.8.4/native/macosx/"
+for example: 
+cd dist; java -jar Pong.jar -Djava.library.path="../lwjgl/native/yourosx/"
